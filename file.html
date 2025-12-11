@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>College Timetable Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>College Timetable Generator</h1>
+    
+    <div class="form-section">
+      <label>Class Name:</label>
+      <input type="text" id="className" placeholder="e.g. Grade 10A"><br><br>
+   
+
+      <label>Subjects, Teachers, and Classrooms (format: Subject: Teacher, Room):</label><br>
+      <textarea id="subjectTeacherPairs" rows="5" cols="40" placeholder="Math: Mr. Smith, 101&#10;English: Ms. Johnson, 406&#10;Science: Mr. Lee, 305&#10;History: Mrs. Brown, 202"></textarea><br><br>
+
+      <button onclick="generateTimetable()">Generate Timetable</button>
+    </div>
+
+    <div id="timetable"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
