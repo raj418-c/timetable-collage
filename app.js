@@ -76,4 +76,3 @@ ${slot.room}</td>`;
   html += `</tbody></table>`; 
   timetableDiv.innerHTML = html; 
 } 
- 
